@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
 				null);
 		mTabsAdapter.addTab(bar.newTab().setText(R.string.afx), Tab3.class,
 				null);
-		mTabsAdapter.addTab(bar.newTab().setText(R.string.yyy), Tab4.class,
+		mTabsAdapter.addTab(bar.newTab().setText(R.string.dl), Tab4.class,
 				null);
 		bar.setSelectedNavigationItem(PreferenceManager
 				.getDefaultSharedPreferences(this).getInt(INSTANCESTATE_TAB, 0));

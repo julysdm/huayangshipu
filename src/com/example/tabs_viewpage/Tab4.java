@@ -1,6 +1,7 @@
 package com.example.tabs_viewpage;
 
 import android.annotation.SuppressLint;
+
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,16 +11,17 @@ import android.widget.TextView;
 
 
 
-@SuppressLint("NewApi")
+@SuppressLint({ "NewApi", "ValidFragment" })
 public class Tab4 extends Fragment {
 	TextView textView;
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		View tab1= inflater.inflate(R.layout.tab1, container,false);
-		 textView=(TextView) tab1.findViewById(R.id.textView1);
+		View tab4= inflater.inflate(R.layout.tab4, container,false);
+		 textView=(TextView) tab4.findViewById(R.id.textView4);
 		 textView.setText("tab4");
-		return tab1;
+		return tab4;
 		
 	}
+	 
 }
