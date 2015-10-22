@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.tabs_viewpage"
+    package="com.example.a"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -14,16 +14,53 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.tabs_viewpage.MainActivity"
-            android:label="@string/app_name"
-            android:configChanges="screenSize|keyboardHidden"
-            android:screenOrientation="sensor"
-            android:uiOptions="splitActionBarWhenNarrow"  >
+            android:name="com.example.a.MainActivity"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.a.Tab1"
+            android:label="@string/title_activity_tab1" >
+        </activity>
+        <activity
+            android:name="com.example.a.Tab2"
+            android:label="@string/title_activity_tab2" >
+        </activity>
+        <activity
+            android:name="com.example.a.Tab3"
+            android:label="@string/title_activity_tab3" >
+        </activity>
+        <activity
+            android:name="com.example.a.Tab4"
+            android:label="@string/title_activity_tab4" >
+        </activity>
+        <activity
+            android:name="com.example.a.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.a.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.a.User"
+            android:label="@string/title_activity_user" >
+        </activity>
+        <activity
+            android:name="com.example.a.DatabaseHelper"
+            android:label="@string/title_activity_database_helper" >
+        </activity>
+        <activity
+            android:name="com.example.a.UserService"
+            android:label="@string/title_activity_user_service" >
+        </activity>
+        <activity
+            android:name="com.example.a.UserTest"
+            android:label="@string/title_activity_user_test" >
         </activity>
     </application>
 
