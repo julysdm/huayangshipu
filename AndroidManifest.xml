@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="11"
         android:targetSdkVersion="18" />
 
     <application
@@ -61,6 +61,14 @@
         <activity
             android:name="com.example.a.UserTest"
             android:label="@string/title_activity_user_test" >
+        </activity>
+        <activity
+            android:name="com.example.a.Camera"
+            android:label="@string/title_activity_camera" >
+        </activity>
+        <activity
+            android:name="com.example.a.ToDoDB"
+            android:label="@string/title_activity_to_do_db" >
         </activity>
     </application>
 

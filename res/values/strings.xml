@@ -18,5 +18,12 @@
     <string name="title_activity_database_helper">DatabaseHelper</string>
     <string name="title_activity_user_service">UserService</string>
     <string name="title_activity_user_test">UserTest</string>
+    <string name="title_activity_camera">Camera</string>
+    <string name="title_activity_to_do_db">ToDoDB</string>
+    <string name="hello">按MENU可新增、修改、刪除</string>
+    <string name="strEditButton">修改</string>
+    <string name="strMenu1">Delete</string>
+    <string name="strAddButton">新增</string>
+    <string name="strDeleteButton">刪除</string>
 
 </resources>

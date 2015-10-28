@@ -33,11 +33,12 @@ public class Tab4 extends Fragment {
 		 
 		 View tab4= inflater.inflate(R.layout.activity_tab4, container,false);
 		 textView=(TextView) tab4.findViewById(R.id.textView6);
+		 textView.setText("tab4");
 		 username=(EditText) tab4.findViewById(R.id.username);
 		 password=(EditText) tab4.findViewById(R.id.password);
 		 login=(Button) tab4.findViewById(R.id.login);
 		 register=(Button) tab4.findViewById(R.id.Register);
-		 textView.setText("tab4");
+		
 		 uService=new UserService(this.context);
 		login.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
@@ -68,5 +69,6 @@ public class Tab4 extends Fragment {
 		super.onAttach(activity);
 		this.context=(MainActivity)activity;
 	}
+	
 }
 	
