@@ -70,6 +70,10 @@
             android:name="com.example.a.ToDoDB"
             android:label="@string/title_activity_to_do_db" >
         </activity>
+        <activity
+            android:name="com.example.a.Recipe"
+            android:label="@string/title_activity_recipe" >
+        </activity>
     </application>
 
 </manifest>
