@@ -33,7 +33,7 @@ public class Tab4 extends Fragment {
 		 
 		 View tab4= inflater.inflate(R.layout.activity_tab4, container,false);
 		 textView=(TextView) tab4.findViewById(R.id.textView6);
-		 textView.setText("tab4");
+		 //textView.setText("tab4");
 		 username=(EditText) tab4.findViewById(R.id.username);
 		 password=(EditText) tab4.findViewById(R.id.password);
 		 login=(Button) tab4.findViewById(R.id.login);
@@ -51,7 +51,7 @@ public class Tab4 extends Fragment {
 					Log.i("TAG","µÇÂ¼³É¹¦");
 					Toast.makeText(getActivity(), "µÇÂ¼³É¹¦", Toast.LENGTH_LONG).show();
 					//Intent intent=new Intent(getActivity(),Tab1.class);
-					//startActivity(intent);
+					//getActivity().startActivity(intent);
 				}else{
 					Log.i("TAG","µÇÂ¼Ê§°Ü");
 					Toast.makeText(getActivity(), "µÇÂ¼Ê§°Ü", Toast.LENGTH_LONG).show();

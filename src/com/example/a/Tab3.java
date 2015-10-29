@@ -40,7 +40,7 @@ public class Tab3<extend> extends Fragment {
 			Bundle savedInstanceState) {
 		View tab3= inflater.inflate(R.layout.activity_tab3, container,false);
 		 textView=(TextView) tab3.findViewById(R.id.textView5);
-		 textView.setText("tab3");
+		 //textView.setText("tab3");
 		 super.onCreate(savedInstanceState);
 			setContentView(R.layout.activity_tab3);
 
